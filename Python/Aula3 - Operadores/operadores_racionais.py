@@ -1,0 +1,5 @@
+nota = float(input(' digite a nota  do aluno (0-100): '))
+verifica_nota = (nota >=60)
+nota_max = (nota == 100)
+print(f'Passou? {verifica_nota}')
+print(f'VO aluno tirou nota máxima ? {nota_max}')
