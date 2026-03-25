@@ -4,7 +4,7 @@ genero = str(input("Digite seu gênero favorito: (ação/drama) ")).lower().stri
 if age_user >14:
     if genero == 'ação':
         print(f'para ao gênero {genero}, recomendamos Batman: O cavalheiro das Trevas')
-    elif genero == 'Drama':
+    elif genero == 'drama':
         print(f'para ao gênero {genero}, recomendamos O lado bom da vida')
     else:
         print('Gênero não disponível no catálogo ')
